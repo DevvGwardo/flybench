@@ -1,0 +1,112 @@
+{
+  "steps": 1500,
+  "seeds": 12,
+  "rows": [
+    {
+      "model": "fly",
+      "decoder_val_r2": 0.984,
+      "gain": 0.9,
+      "encoder_n": 2400,
+      "mean_abs_err": 0.465,
+      "median_abs_err": 0.215,
+      "lost_road": 1,
+      "seeds": 12,
+      "in_lane": 0.937,
+      "crashes": 1,
+      "spikes_per_step": 13495.0,
+      "travelled": 556.0,
+      "per_seed": [
+        0.2,
+        0.44,
+        0.23,
+        0.19,
+        0.33,
+        0.19,
+        0.28,
+        0.2,
+        0.24,
+        0.2,
+        2.9,
+        0.19
+      ]
+    },
+    {
+      "model": "random",
+      "decoder_val_r2": 0.752,
+      "gain": 1.3,
+      "encoder_n": 614,
+      "mean_abs_err": 0.946,
+      "median_abs_err": 0.407,
+      "lost_road": 4,
+      "seeds": 12,
+      "in_lane": 0.814,
+      "crashes": 4,
+      "spikes_per_step": 27092.0,
+      "travelled": 442.0,
+      "per_seed": [
+        2.21,
+        1.9,
+        0.39,
+        0.28,
+        0.28,
+        0.46,
+        2.29,
+        0.43,
+        0.28,
+        0.38,
+        2.16,
+        0.29
+      ]
+    },
+    {
+      "model": "shuffled",
+      "decoder_val_r2": 0.948,
+      "gain": 1.0,
+      "encoder_n": 2400,
+      "mean_abs_err": 0.751,
+      "median_abs_err": 0.334,
+      "lost_road": 3,
+      "seeds": 12,
+      "in_lane": 0.857,
+      "crashes": 3,
+      "spikes_per_step": 8870.0,
+      "travelled": 500.0,
+      "per_seed": [
+        0.35,
+        2.33,
+        0.92,
+        0.22,
+        0.72,
+        0.19,
+        0.27,
+        0.3,
+        1.1,
+        0.32,
+        2.12,
+        0.16
+      ]
+    },
+    {
+      "model": "linear (PD teacher)",
+      "mean_abs_err": 0.182,
+      "in_lane": 1.0,
+      "crashes": 0,
+      "spikes_per_step": 0,
+      "travelled": 600.0,
+      "per_seed": [
+        0.177,
+        0.189,
+        0.19,
+        0.174,
+        0.18,
+        0.176,
+        0.191,
+        0.177,
+        0.181,
+        0.177,
+        0.203,
+        0.174
+      ]
+    }
+  ]
+}
